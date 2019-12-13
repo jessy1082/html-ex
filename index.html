@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sample</title>
     <link rel="stylesheet" type="text/css" href="html-ex.css">
+
 </head>
+
 <body>
-    
-    
+    <p class=para>Geckos <em> are a </em> group of usually small, usually nocturnal lizards. They are found on every
+        continent except Australia.</p>
+
+    <p class=para>Some species live in houses where they hunt insects attracted by artificial light.</p>
+    <p>Separating paragraphs with blank lines is easiest
+        for readers to scan, but they can also be separated
+        by indenting their first lines. This is often used
+        to take up less space, such as to save paper in print.</p>
+
+    <p>Writing that is intended to be edited, such as school
+        papers and rough drafts, uses both blank lines and
+        indentation for separation. In finished works, combining
+        both is considered redundant and amateurish.</p>
+
+    <p>In very old writing, paragraphs were separated with a
+        special character: ¶, the <i>pilcrow</i>. Nowadays, this
+        is considered claustrophobic and hard to read.</p>
+
+    <p>How hard to read? See for yourself:
+        <button data-toggle-text="Oh no! Switch back!">Use pilcrow for paragraphs</button>
+    </p>
+
+    <ul>
+        <li>Milk</li>
+        <li>Cheese
+            <ul>
+                <li>Blue cheese</li>
+                <li>Feta</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li>first item</li>
+        <li>second item
+        <!-- Look, the closing </li> tag is not placed here! -->
+          <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+          </ol>
+        <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+      </ul>
+      <img class="fit-picture"
+      src="https://developer.mozilla.org/static/img/favicon144.png"
+      alt="Grapefruit slice atop a pile of other slices">
+     
+
+    <script src="/html-ex.js"></script>
+
 </body>
+
 </html>

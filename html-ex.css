@@ -1,0 +1,31 @@
+p.para {
+    margin: 5 80;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+em{
+    font-weight: bolder;
+}
+
+p {
+    margin-bottom: 1em;
+    text-indent: 5ch;
+  }
+  
+p.pilcrow {
+   text-indent: 40;
+   display: inline;
+}
+
+/*li {
+    list-style-type: circle;
+}
+
+li li {
+    list-style-type: square;
+}
+*/
+.fit-picture {
+    width: 250px;
+}
